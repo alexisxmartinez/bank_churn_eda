@@ -1,0 +1,63 @@
+{
+    "can_predict_churn": {
+        "model_performance": {
+            "roc_auc_score": 0.862,
+            "confusion_matrix": [
+                [
+                    1554,
+                    39
+                ],
+                [
+                    227,
+                    180
+                ]
+            ]
+        },
+        "feature_importances": [
+            {
+                "feature": "Age",
+                "importance": 0.3107564497476136
+            },
+            {
+                "feature": "NumOfProducts",
+                "importance": 0.22050710542877514
+            },
+            {
+                "feature": "Balance",
+                "importance": 0.10707137677253363
+            },
+            {
+                "feature": "EstimatedSalary",
+                "importance": 0.08522575244144437
+            },
+            {
+                "feature": "CreditScore",
+                "importance": 0.08450855744621243
+            },
+            {
+                "feature": "IsActiveMember",
+                "importance": 0.06488083691245637
+            },
+            {
+                "feature": "Geography_Germany",
+                "importance": 0.04688776693231638
+            },
+            {
+                "feature": "Tenure",
+                "importance": 0.042429931782852016
+            },
+            {
+                "feature": "Gender_Male",
+                "importance": 0.01780419794810968
+            },
+            {
+                "feature": "HasCrCard",
+                "importance": 0.010158787481148656
+            },
+            {
+                "feature": "Geography_Spain",
+                "importance": 0.009769237106537912
+            }
+        ]
+    }
+}
